@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños Dolly</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fef3c7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card {
+            background-color: #fffbeb;
+            border: 2px solid #fcd34d;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            color: #92400e;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            color: #b45309;
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .icon {
+            width: 48px;
+            height: 48px;
+            fill: #92400e;
+        }
+        .quote {
+            font-style: italic;
+            color: #92400e;
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        .message {
+            background-color: #fde68a;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: #78350f;
+        }
+        .gift {
+            margin-top: 1.5rem;
+        }
+        .gift p {
+            color: #92400e;
+            margin-bottom: 0.5rem;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>¡Feliz Cumpleaños, Dolly!</h1>
+        <p class="subtitle">Andrea, que este día sea tan especial como tú</p>
+        <div class="icons">
+            <svg class="icon" viewBox="0 0 24 24">
+                <path d="M2 21h18v-2H2v2zM20 8h-3V5c0-1.1-.9-2-2-2H9c-1.1 0-2 .9-2 2v3H4c-1.1 0-2 .9-2 2v9h20V10c0-1.1-.9-2-2-2zm-5 0H9V5h6v3z"/>
+            </svg>
+            <svg class="icon" viewBox="0 0 24 24">
+                <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/>
+            </svg>
+            <svg class="icon" viewBox="0 0 24 24">
+                <path d="M12 6c1.11 0 2-.9 2-2 0-.38-.1-.73-.29-1.03L12 0l-1.71 2.97c-.19.3-.29.65-.29 1.03 0 1.1.9 2 2 2zm4.6 9.99l-1.07-1.07-1.08 1.07c-1.3 1.3-3.58 1.31-4.89 0l-1.07-1.07-1.09 1.07C6.75 16.64 5.88 17 4.96 17c-.73 0-1.4-.23-1.96-.61V21c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-4.61c-.56.38-1.23.61-1.96.61-.92 0-1.79-.36-2.44-1.01zM18 9h-5V7h-2v2H6c-1.66 0-3 1.34-3 3v1.54c0 1.08.88 1.96 1.96 1.96.52 0 1.02-.2 1.38-.57l2.14-2.13 2.13 2.13c.74.74 2.03.74 2.77 0l2.14-2.13 2.13 2.13c.37.37.86.57 1.38.57 1.08 0 1.96-.88 1.96-1.96V12C21 10.34 19.66 9 18 9z"/>
+            </svg>
+        </div>
+        <p class="quote">"La vida es como un libro, y tu cumpleaños es el comienzo de un nuevo capítulo lleno de posibilidades."</p>
+        <div class="message">
+            <p>Querida Dolly, que tu día esté lleno de la calidez de un buen café, la magia de tus libros favoritos y el dulce sabor de un pastel delicioso. Que cada página de tu vida esté llena de aventuras, risas y amor.</p>
+        </div>
+        <div class="gift">
+            <p>Tu regalo musical:</p>
+            <div class="video-container">
+                <iframe 
+                    src="LOLO - CHICA DE ROSA (Video Oficial).mp4" 
+                    title="Regalo musical de cumpleaños para Dolly" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
